@@ -5,8 +5,9 @@ Discord: Hannasav
 4. Skills:
 HTML,
 Git.
-5.
-function multiply(a, b) {
+5. function multiply(a, b) {
   return a * b;
 }
-6.
+6. No projects.
+7. Rsschool stage0, code-basics html
+8. Level of English proficiency: school curriculum.
