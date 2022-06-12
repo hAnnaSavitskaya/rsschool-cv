@@ -17,7 +17,6 @@ body {
     margin: 0 auto;
     font-family: var(--robot);
 }
-
 .header {
     background-color: var(--pink);
 }
@@ -27,7 +26,6 @@ body {
     gap: 50px;
     
 }
-
 .img1 {
     max-height: 300px;
     display: block;
@@ -72,8 +70,10 @@ body {
     font-family: var(--mont);
 }
 .right-section {
+    
     background-color: var(--white);
     color: var(--black);
     max-width: 70%;
-    margin: 0;
+    margin-left: 300px;
 }
+
