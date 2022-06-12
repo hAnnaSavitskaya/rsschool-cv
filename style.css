@@ -136,3 +136,15 @@ body {
 .educ_p{
     text-align: left;
 }
+.lng{
+    text-align: left;
+    padding: 20px 60px;
+}
+.title7{
+    text-align: left;
+    padding: 10px 0; 
+    font-family: var(--mont);
+}
+.lng_p{
+    text-align: left;
+}
