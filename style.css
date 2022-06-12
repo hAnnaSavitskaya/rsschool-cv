@@ -38,7 +38,18 @@ body {
     margin: auto 0;  
     font-family: var(--mont);  
 }
+.main {
+    display: flex;
+    column-count: 2;
+    column-gap: 0px;
+    column-width: auto;
+
+}
 .left-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
     background-color: var(--black);
     color: var(--white);
     max-width: 30%;
@@ -54,26 +65,74 @@ body {
 }
 .l-section {
     text-align: left;
-
 }
 .contact {
     text-align: left;
-    padding: 10px 0;
+    padding: 10px 50px;
     font-family: var(--mont);
-}
-.contact_p {
-    padding: 0 100px;
 }
 .title2 {
     text-align: center;
     padding: 10px 0;
     font-family: var(--mont);
 }
-.right-section {
-    
+.contact_p {
+    padding: 0 100px;    
+}
+.right-section {    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 60%;
+    width: 100%;
     background-color: var(--white);
     color: var(--black);
-    max-width: 70%;
-    margin-left: 300px;
+    max-width: 100%;
+    margin: 0;
 }
-
+.skills{
+    text-align: left;
+    padding: 20px 60px;    
+}
+.title3{
+    text-align: left;
+    padding: 10px 0; 
+    font-family: var(--mont); 
+}
+.skills_p{
+    text-align: left;    
+}
+.code{
+    text-align: left;
+    padding: 20px 60px;
+}
+.title4{
+    text-align: left;
+    padding: 10px 0;
+    font-family: var(--mont);
+}
+.code_p{
+    text-align: left;
+}
+.project{
+    text-align: left;
+    padding: 20px 60px;
+}
+.title5{
+    text-align: left;
+    padding: 10px 0;
+    font-family: var(--mont); 
+}
+.educ{
+    text-align: left;
+    padding: 20px 60px;
+}
+.title6{
+    text-align: left;
+    padding: 10px 0; 
+    font-family: var(--mont); 
+}
+.educ_p{
+    text-align: left;
+}
