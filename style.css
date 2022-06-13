@@ -21,21 +21,21 @@ body {
     background-color: var(--pink);
 }
 .navigat {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    
+    display: flex;      
+}
+.img1_n {
+    width: 30%;    
 }
 .img1 {
     max-height: 300px;
     display: block;
-    margin: 15px 0;
+    margin: 15px auto;
     border-radius: 10px;
 }
 .name {
     color: var(--black);
     font-size: 40px;
-    margin: auto 0;  
+    margin: auto;  
     font-family: var(--mont);  
 }
 .main {
@@ -91,60 +91,81 @@ body {
     max-width: 100%;
     margin: 0;
 }
-.skills{
+.skills {
     text-align: left;
     padding: 20px 60px;    
 }
-.title3{
+.title3 {
     text-align: left;
     padding: 10px 0; 
     font-family: var(--mont); 
 }
-.skills_p{
+.skills_p {
     text-align: left;    
 }
-.code{
+.code {
     text-align: left;
     padding: 20px 60px;
 }
-.title4{
+.title4 {
     text-align: left;
     padding: 10px 0;
     font-family: var(--mont);
 }
-.code_p{
+.code_p {
     text-align: left;
 }
-.project{
+.project {
     text-align: left;
     padding: 20px 60px;
 }
-.title5{
+.title5 {
     text-align: left;
     padding: 10px 0;
     font-family: var(--mont); 
 }
-.educ{
+.educ {
     text-align: left;
     padding: 20px 60px;
 }
-.title6{
+.title6 {
     text-align: left;
     padding: 10px 0; 
     font-family: var(--mont); 
 }
-.educ_p{
+.educ_p {
     text-align: left;
 }
-.lng{
+.lng {
     text-align: left;
     padding: 20px 60px;
 }
-.title7{
+.title7 {
     text-align: left;
     padding: 10px 0; 
     font-family: var(--mont);
 }
-.lng_p{
+.lng_p {
     text-align: left;
+}
+.img2 {
+   width: 100px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);    
+}
+.github a {
+text-decoration: none;
+font-family: var(--mont);
+font-size: 30px;
+color: var(--pink);
+padding: 15px 0 0 15px;
+}
+.span_f {
+    font-family: var(--mont);
+    font-size: 15px;
+    color: var(--white);
+    padding-top: 20px;
 }
